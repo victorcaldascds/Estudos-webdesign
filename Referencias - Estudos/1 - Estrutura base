@@ -1,0 +1,105 @@
+<html lang="pt-br">
+    <head>
+        - head é usado para que a gnt possa passar informações adicionais para o browser
+        <title> Titulo da pagina </title>
+        <meta tags> informaçoes a mais
+        <link para arquivos externos> css ou javascript
+        
+    </head>
+
+    <body>
+        - body é o conteudo da pagina
+        <!-- conteudo da pagina --> isso é usado para conteudo nos codigos, tipo comentarios
+        <h1> titulo da pagina </h1>
+        <p>texto</p>
+        <ul>
+            <il>item de lista</il>
+        </ul>
+    </body>
+
+</html>
+
+HTML
+Doctype
+<!doctype html> coloca sempre no inicio do documento antes do <html> 
+    <! é declaração
+
+Charset
+<meta charset="utf-8"> indica para browser, ela tem codificação utf 8, acento ç e essas coisas
+
+tag 
+<a>
+    href
+    title
+<link>
+    href
+    rel
+
+<script>
+    src 
+
+Duas formas para inserirmos imagens
+<img>
+    src 
+    alt
+
+CSS 
+background-image: url(...);
+
+tipos de imagens
+
+.jpg/.jpeg 
+.png 
+.gif 
+.svg -- arquivo vetorial, nao perde resolução quando o usuario da zoom
+.webp -- formato do google, formado por pixels, ele fica menor em mb que uma jpg ou jpeg 
+
+Estrutura de Layot
+Wireframe 
+<div id="..."> <!-- wrapper  -->                                   <div id="..."> 
+    <div id="..."> </div> <!-- header ou cabeçario -->              <header></header>
+    <div id="..."> </div> <!-- nav ou menu -->                      <nav></nav>
+    <div id="..."> </div> <!-- mainContent ou conteudo principal--> <main></main>
+    <div id="..."> </div> <!-- Footer ou rodapé   -->               <footer></footer>
+</div>                                                             </div>
+
+outras tags semanticas
+<section> relevante para sua pagina
+<article> conteudo principal da pagina
+<aside> conteudo a parte, nao faz parte do conteudo do site
+
+tags não semanticas
+<div>
+<span> ela possui inline, essa tag span não vai ter quebra de linha, uma unica linha
+
+propriedade display, inline, block e inline-block 
+display:
+block - ele sempre deixa uma quebra de linha 
+inline - ele funciona como se fosse uma linha mesma
+inline-block - continua sendo elemento de linha, mas consigo ter modulo block 
+none- faz sumir
+
+Box Model
+width e height em conjunto com padding
+padding, vai somar com total do elemento
+
+Float - usado para posicionar leather (usado antigamente) os float se entendem quando usados nos styles
+right, left, none
+none - fluxo normal
+ele tenta encaixar de alguma forma, usando left ou right 
+
+Clear - limpar elemento do Float (usado antigamente)
+right, left, none, both
+
+Propriedade Position
+static; (por padrão sempre vai vir o static, se nao colocar)
+relative; (so vao fzr sentido se trabalhar com left, top, bottom ou right, relativo a ele mesmo, da posição original dele, que ele vai se movimentar)
+absolute; (so vao fzr sentido se trabalhar com left, top, bottom ou right, absolute ele se refencia ao meu documento, ele se relaciona sempre com o primeiro elemento posicionado)
+fixed; (so vao fzr sentido se trabalhar com left, top, bottom ou right, ele se relaciona a janela do browser)
+
+
+
+
+site para pegar texto https://www.lipsum.com/
+
+overflow auto é o melhor é o atual

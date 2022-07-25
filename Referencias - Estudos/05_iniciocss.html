@@ -1,0 +1,86 @@
+<!DOCTYPE html> <!--primeira coisa do documento-->
+<html lang="pt-br">
+    <head>
+        <title> Pagina de exemplo estrutura basica </title>
+        <meta charset="utf-8">
+        <meta content="dark" name="color-scheme">
+        <meta name="author" content="Victor">
+        <meta name="description" content="lista de documentos">
+        <meta name="keywords" content="html5, tecnologia">
+        <style>
+            body{
+                background-color: rgb(37, 37, 30);
+            }
+
+
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 32px;
+                font-style: normal;
+                font-variant: small-caps;
+                color:aqua;
+                background-color: yellow;
+                margin-left: 0;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                padding-left: 50px;
+                width: 200px;
+                height: 250px;
+            }
+            h2 {
+                text-transform: uppercase;
+                font-family: Arial, Helvetica, sans-serif;
+                color:aquamarine;
+                font-size: 16px;
+                border-color: red;
+                border-style: d;
+                border-width: 10px;
+                padding: 25px;
+                
+            }
+            p{
+                font-variant: normal;
+                text-align: left;
+                text-decoration: underline;
+                text-indent: 25px; 
+                text-transform: none;
+                margin-bottom: 25px;
+            }      
+            #destaque{
+                color: cornflowerblue;
+                background-color: yellow;
+            }
+            .destaq{
+                color:turquoise;
+                background-color:rgb(6, 36, 1);
+            }
+            
+
+        </style>
+        <!--em style p{
+            padding-top: 50px;
+            padding-right: 40px;
+            padding-bottom: 30px;
+            padding-left: 20px;
+        } é mesma coisa que
+        p { padding: 50px 40px 30px 20px}  a rotação é sempre em sentido horario. top-right-bottom-left
+
+        h1 {
+            border-style: dotted;
+            border-width: 5px;
+            border-color: red;
+        } é mesma coisa que
+        h1 { border: dotted 5px red;}     
+        -->
+
+    </head>
+    <body>
+        <h1>Estrutura basica</h1>
+        <h2>Subtitulo da pagina</h2>
+        <p class="destaq">Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Cevadis im ampola pa arma uma pindureta.Mé faiz elementum girarzis, nisi eros vermeio.Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!</p>
+        <p id="destaque">Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Per aumento de cachacis, eu reclamis.Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.A ordem dos tratores não altera o pão duris.</p> <!-- id é unico por pagina, so se trocar o valor que é valido-->
+        <p class="destaq">Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.Si num tem leite então bota uma pinga aí cumpadi!Sapien in monti palavris qui num significa nadis i pareci latim.</p> <!-- ja o class pode ter o mesmo valor igual-->
+        <p>Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.Si num tem leite então bota uma pinga aí cumpadi!Sapien in monti palavris qui num significa nadis i pareci latim.</p>
+
+    </body>
+</html>

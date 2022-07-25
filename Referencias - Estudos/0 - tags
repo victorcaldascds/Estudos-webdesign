@@ -1,0 +1,31 @@
+<>...</> 
+
+<h1> Meu Título</h1>
+
+<p>paragrafo</p>
+
+<i>italico</i>
+
+<b>negrito</b>
+
+<em> italico semantico</em> preferencia em busca
+
+<strong> negrito semantico </strong> preferencia em busca
+
+<ul> ul - Lista nao ordenada, dentro das ul, tem que ter um li
+<li>item de lista</li> 
+<li>item de lista</li> 
+<li>item de lista</li> 
+</ul>
+
+<ol>  ol - Lista ordenada
+    <li>item de lista</li> 
+    <li>item de lista</li> 
+    <li>item de lista</li> 
+</ol>
+
+<a> a - usado para links </a> -> 
+<tag atributo="valor"> texto aqui </tag>
+
+quebra de linha <br> <hr> hr mostra a linha horizontal, uma regua horizontal
+
